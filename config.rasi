@@ -1,0 +1,22 @@
+configuration {
+    modi: "drun,run,window";
+
+    show-icons: false;
+
+    font: "JetBrainsMono Nerd Font 12";
+
+    drun-display-format: "{name}";
+    drun-match-fields: "name,generic,comment,exec,categories";
+
+    disable-history: false;
+    sort: true;
+    sorting-method: "fzf";
+
+    hover-select: true;
+
+    display-drun: "Apps";
+    display-run: "Run";
+    display-window: "Windows";
+}
+
+@theme "~/.config/rofi/theme.rasi"

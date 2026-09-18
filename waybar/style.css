@@ -1,0 +1,110 @@
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 13px;
+  font-weight: 600;
+  }
+
+window#waybar {
+background: transparent;
+color: #ffffff;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+background: #050505;
+border: 1px solid #1c1c1c;
+border-radius: 12px;
+}
+
+.modules-left {
+padding: 2px 6px;
+}
+
+.modules-center {
+padding: 2px 14px;
+}
+
+.modules-right {
+padding: 2px 8px;
+}
+
+#workspaces button {
+color: #666666;
+background: transparent;
+border: none;
+padding: 3px 8px;
+margin: 0 2px;
+border-radius: 8px;
+}
+
+#workspaces button.active {
+color: #ffffff;
+background: #1c1c1c;
+}
+
+#workspaces button:hover {
+color: #ffffff;
+background: #151515;
+}
+
+#clock {
+color: #ffffff;
+}
+
+#custom-apps {
+color: #bbbbbb;
+padding: 0 10px;
+margin-right: 4px;
+}
+
+#custom-apps:hover {
+color: #ffffff;
+}
+
+#custom-power-profile {
+color: #bbbbbb;
+padding: 0 10px;
+margin-right: 4px;
+}
+
+#custom-power-profile:hover {
+color: #ffffff;
+}
+
+#pulseaudio,
+#backlight,
+#network,
+#battery {
+color: #dddddd;
+padding: 0 8px;
+}
+
+#pulseaudio:hover,
+#backlight:hover,
+#network:hover,
+#battery:hover {
+color: #ffffff;
+}
+
+#pulseaudio.muted {
+color: #666666;
+}
+
+#battery.warning {
+color: #aaaaaa;
+}
+
+#battery.critical {
+color: #ffffff;
+}
+
+tooltip {
+background: #080808;
+border: 1px solid #222222;
+border-radius: 8px;
+}
+
+tooltip label {
+color: #ffffff;
+}

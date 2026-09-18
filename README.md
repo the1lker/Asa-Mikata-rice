@@ -32,3 +32,4 @@ The setup uses a mostly black interface with `#050505` backgrounds, `#1c1c1c` bo
 
 > Built for personal use and continuously evolving.
 
+![Hyprland Rice]()
